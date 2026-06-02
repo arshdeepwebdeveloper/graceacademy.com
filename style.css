@@ -33,9 +33,9 @@ h1,h2,h3,h4 { font-family: 'Playfair Display', serif; }
   position: relative; display: flex; align-items: center; overflow: hidden;
 }
 .hero::before {
-  content:''; position:absolute; inset:0;
+  /* content:''; position:absolute; inset:0;
   background: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80') center/cover no-repeat;
-  opacity:.12;
+  opacity:.12; */
 }
 .hero-orb { position:absolute; border-radius:50%; filter:blur(80px); pointer-events:none; }
 .hero-orb-1 { width:520px; height:520px; background:radial-gradient(circle,rgba(26,92,255,.35),transparent 70%); top:-100px; right:-80px; }
