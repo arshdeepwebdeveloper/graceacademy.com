@@ -146,11 +146,11 @@ section { padding: 96px 0; }
 
 /* ── CONTACT ─────────────────────────────────────────────── */
 .contact-section { background:linear-gradient(135deg,#071232,#0B1F4A); }
-.contact-card { background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1); border-radius:var(--radius); padding:36px; }
+.contact-card { background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1); border-radius:var(--radius); padding: 34px 16px 34px 16px;}
 .contact-info-item { display:flex; align-items:center; gap:18px; margin-bottom:28px; }
 .ci-icon { width:50px; height:50px; background:linear-gradient(135deg,var(--gold),var(--gold-light)); border-radius:14px; display:flex; align-items:center; justify-content:center; color:var(--navy); font-size:1.2rem; flex-shrink:0; }
 .ci-label { color:rgba(255,255,255,.55); font-size:.82rem; text-transform:uppercase; letter-spacing:.8px; }
-.ci-val { color:#fff; font-weight:600; font-size:1rem; }
+.ci-val { color:#fff; font-weight:600; font-size:15px ; }
 .form-control, .form-select { background:rgba(255,255,255,.07) !important; border:1px solid rgba(255,255,255,.15) !important; color:#fff !important; border-radius:12px !important; padding:14px 18px !important; font-size:.97rem; }
 .form-control::placeholder { color:rgba(255,255,255,.4) !important; }
 .form-control:focus, .form-select:focus { background:rgba(255,255,255,.11) !important; box-shadow:0 0 0 3px rgba(26,92,255,.3) !important; border-color:var(--blue) !important; }
@@ -653,3 +653,4 @@ body{
     overflow-x: hidden;
     width: 100%;
 }
+
